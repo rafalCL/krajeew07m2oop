@@ -16,4 +16,8 @@ public class Product {
 //        this.name = newName;
 //        return this;
 //    }
+
+    public String toString(){
+        return "Klasa Product, pola: name=" + this.name;
+    }
 }
