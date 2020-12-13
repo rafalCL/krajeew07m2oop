@@ -9,7 +9,7 @@ public class Calculator {
         this.history = new String[0];
     }
 
-    private void addToHistory(String entry){
+    protected void addToHistory(String entry){
         this.history = Arrays.copyOf(this.history, this.history.length+1);
         this.history[this.history.length-1] = entry;
     }
